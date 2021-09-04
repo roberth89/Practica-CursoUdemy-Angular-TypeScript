@@ -1,22 +1,14 @@
 "use strict";
 (function () {
-    // 14. Introducción a los tipos de datos
-    // Evitar con tipos ANY
-    var mensaje = 'hola';
-    var numero = 123;
-    var booleano = true;
-    var hoy = new Date();
-    var cualquierCosa;
-    cualquierCosa = mensaje;
-    cualquierCosa = numero;
-    var spiderman = {
-        nombre: 'Peter',
-        edad: 30
-    };
-    spiderman = {
-        nombre: 'Juan',
-        edad: 40
-    };
+    function getEdad() {
+        return 10 + 10 + 10 + 1;
+    }
+    // Template Literales
+    var nombre = 'Roberto';
+    var apellido = 'Cordero';
+    var edad = 31;
+    var salida = nombre + " \n" + apellido + " \n" + getEdad();
+    console.log(salida);
 })();
 // Recordatorio abrir como los arhcivos ts, el navegador
 // no lo reconoce se debe entrar a la terminal 
