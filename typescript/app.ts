@@ -23,6 +23,42 @@
     // tsc -w para guardar automanticamente el archivo js, cuando se hace cambio
 
 
+    // 13. Variables let y cons
+    // let nuevo scope.
+    // var usa el mismo espacio en memoria.
+
+
+    let mensaje = 'Hola';
+    const MSJCONST = 'Mundo'
+
+    if(true){
+        mensaje = 'Mundo';
+    }
+    console.log(mensaje);
+
+
+    // 14. Introducción a los tipos de datos
+    // Evitar con tipos ANY
+    let mensaje2 : string = 'hola';
+    let numero : number = 123;
+    let booleano : boolean = true;
+    let hoy : Date = new Date();
+
+    let cualquierCosa;
+    cualquierCosa = mensaje; 
+    cualquierCosa = numero;
+
+    let spiderman = {
+        nombre : 'Peter',
+        edad : 30
+    };
+
+    spiderman = {
+        nombre : 'Juan',
+        edad: 40
+    };
+
+
 })();
 
 
