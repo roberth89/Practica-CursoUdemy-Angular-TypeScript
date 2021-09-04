@@ -10,9 +10,7 @@
             console.log(`${quien} activo ${objeto} en la ${momento}`)
         }else{
             console.log(`${quien} activo ${objeto}`)
-        }
-
-    
+        }    
 
    }
 
