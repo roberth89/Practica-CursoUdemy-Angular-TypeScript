@@ -2,7 +2,7 @@
 
     // 14. Introducción a los tipos de datos
     // Evitar con tipos ANY
-    let mensaje2 : string = 'hola';
+    let mensaje : string = 'hola';
     let numero : number = 123;
     let booleano : boolean = true;
     let hoy : Date = new Date();

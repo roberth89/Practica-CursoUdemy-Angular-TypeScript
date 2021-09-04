@@ -2,7 +2,7 @@
 (function () {
     // 14. Introducción a los tipos de datos
     // Evitar con tipos ANY
-    var mensaje2 = 'hola';
+    var mensaje = 'hola';
     var numero = 123;
     var booleano = true;
     var hoy = new Date();
